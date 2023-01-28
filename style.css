@@ -233,11 +233,149 @@ body{
     flex-basis: 1150px;
 }
 
+.price{
+    margin-bottom: 100px;
+}
+
+.price__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.price__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+.price__text{
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 29px;
+    max-width: 298px;
+}
+.form__name{
+    display: block;
+    line-height: 180%;
+    color: #6F6F6F;
+    opacity: 0.5;
+    border-bottom: 1px solid #131313;
+    margin-bottom: 20px;
+}
+.form__tel{
+    display: block;
+    line-height: 180%;
+    color: #6F6F6F;
+    opacity: 0.5;
+    border-bottom: 1px solid #131313;
+    margin-bottom: 20px;
+}
+.form__radio{
+    line-height: 180%;
+    color: #6F6F6F;
+    margin-bottom: 50px;
+}
+.form__radio span{
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+.radio__div{
+    display: flex;
+}
+.radio__check{
+    margin-right: 23px;
+    width: 80px;
+    height: 12px;
+    border: 1px solid orangered;
+    border-radius: 30px;
+    background-color: orangered;
+    opacity: 1;
+}
+.radio__check:hover{
+    background-color: blue;
+}
+.hiden{
+    opacity: 0;
+}
+.form__button{
+    margin-top: 50px;
+}
+
+.price__form{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 420px;
+}
+.form__button{
+    display: block;
+}
 
 
-
+.pricetag{
+    width: 221px;
+    height: 100px;
+    padding: 30px 10px 30px 31px;
+    font-size: 32px;
+    line-height: 39px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 450px;
+    border: 1px solid #FF4040;
+    border-radius: 50%;
+}
+.pricetag__border-2{
+    width: 221px;
+    height: 100px;
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 450px;
+    border: 1px solid #FF4040;
+    border-radius: 50%;
+}
 
 .footer{
-        height: 70px;
-        background-color: #131313;
+    background-color: #131313;
+}
+.footer__inner{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+}
+.footer__policy{
+    align-self: center;
+    text-decoration: underline;
+}
+.footer__icons{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer__icon-inst{
+    margin-right: 28px;
+}
+.footer__icon-inst{
+    flex-basis: 28px;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.footer__tel{
+    display: flex;
+    align-items: center;
+}
+.footer__mail{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.tel__text{
+    margin-left: 10px;
+}
+.mail__text{
+    margin-left: 10px;
 }
