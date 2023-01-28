@@ -1,3 +1,3 @@
 #Landing page practice
 
-flex practice
+flex and git practice
